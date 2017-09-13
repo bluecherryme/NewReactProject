@@ -6,12 +6,12 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 const renderApp = () => {
-  render(
-    <BrowserRouter key={Math.random()}>
-      <App />
-    </BrowserRouter>,
-    document.getElementById('app')
-  );
+render(
+<BrowserRouter key={Math.random()}>
+  <App />
+</BrowserRouter>,
+document.getElementById('app')
+);
 };
 renderApp();
 
